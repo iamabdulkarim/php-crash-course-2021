@@ -54,6 +54,9 @@ echo '<pre>';
 echo var_dump(explode(",",$versityFriends));
 echo '</pre>';
 // Combine array elements into string
+echo '<br>';
+
+echo(implode(",",$names));
 
 // Check if element exist in the array
 
