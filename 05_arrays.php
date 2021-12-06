@@ -59,9 +59,16 @@ echo '<br>';
 echo(implode(",",$names));
 
 // Check if element exist in the array
+echo '<pre>';
+var_dump(in_array('noman',$names));
+
+echo '</pre>';
 
 // Search element index in the array
+echo '<pre>';
+var_dump(array_search('Bakkar',$names));
 
+echo '</pre>';
 // Merge two arrays
 
 // Sorting of array (Reverse order also)
