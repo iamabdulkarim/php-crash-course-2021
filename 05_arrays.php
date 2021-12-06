@@ -28,9 +28,16 @@ echo '</pre>';
 // Print the length of the array
 echo count($names).'<br>';
 // Add element at the end of the array
-
+array_push($names, 'karim');
+echo '<pre>';
+echo var_dump($names);
+echo '</pre>';
 // Remove element from the end of the array
 
+echo array_pop($names);
+echo '<pre>';
+echo var_dump($names);
+echo '</pre>';
 // Add element at the beginning of the array
 
 // Remove element from the beginning of the array
