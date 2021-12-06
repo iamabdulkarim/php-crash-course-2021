@@ -1,26 +1,32 @@
 <?php
 
 // Declaring numbers
-$a = 5;
-$b = 4;
-$c = 1.2;
+$a = 6;
+$b = 5;
+$c = 2.2;
 
 // Arithmetic operations
 echo ($a + $b) * $c . '<br>';
+
 echo $a - $b . '<br>';
+
 echo $a * $b . '<br>'; 
+
 echo $a / $b . '<br>';
+
 echo $a % $b . '<br>';
 
 // Assignment with math operators
 
 //$a += $b; echo $a.'<br>'; // $a = 9
+
 //$a -= $b; echo $a.'<br>'; // $a = 1
 //$a *= $b; echo $a.'<br>'; // $a = 20
 //$a /= $b; echo $a.'<br>'; // $a = 1.25
 //$a %= $b; echo $a.'<br>'; // $a = 1
 
 // Increment operator
+
 echo $a++ . '<br>';
 echo ++$a . '<br>';
 
@@ -30,8 +36,11 @@ echo --$a . '<br>';
 
 // Number checking functions
 is_float(1.25); // true
+
 is_integer(3.4); // false
+
 is_numeric("3.45"); // true
+
 is_numeric("3g.45"); // false
 
 // Conversion
