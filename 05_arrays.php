@@ -1,7 +1,7 @@
 <?php
 
 // Create array
-$names = ["karim","noman","Bakkar"];
+$names = ["karim","Noman","Bakkar"];
 // Print the whole array
 echo '<pre>';
 var_dump($names);
@@ -68,13 +68,23 @@ echo '<pre>';
 var_dump(array_search('Bakkar',$names));
 echo '</pre>';
 // Merge two arrays
-$newFriend = ['miraz','alif','sadek'];
+$newFriends = ['miraz','alif','sadek'];
 echo '<pre>';
-var_dump([...$names,...$newFriend]);
+var_dump([...$names,...$newFriends]);
 echo '</pre>';
 // Sorting of array (Reverse order also)
+echo '<pre>';
+var_dump($newFriends);
+echo '</pre>';
+sort($names);
+echo '<pre>';
+var_dump($names);
+echo '</pre>';
 
-
+rsort($newFriends);
+echo '<pre>';
+var_dump($newFriends);
+echo '</pre>';
 // https://www.php.net/manual/en/ref.array.php
 
 // ============================================
