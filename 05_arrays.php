@@ -1,20 +1,30 @@
 <?php
 
 // Create array
-$name = ["karim","noman","Bakkar"];
+$names = ["karim","noman","Bakkar"];
 // Print the whole array
 echo '<pre>';
-var_dump($name);
-echo '<pre>';
+var_dump($names);
+echo '</pre>';
 
 // Get element by index
-
+echo $names[2].'<br>';
+echo $names[1].'<br>';
+echo $names[0].'<br>';
 // Set element by index
+$names[0] = 'Mamshad';
+echo '<pre>';
+echo var_dump($names);
+echo '</pre>';
 
 // Check if array has element at index 2
-
+isset($names[2]); //true
+isset($names[4]); //false
 // Append element
-
+$names[] = 'Riaz';
+echo '<pre>';
+echo var_dump($names);
+echo '</pre>';
 // Print the length of the array
 
 // Add element at the end of the array
