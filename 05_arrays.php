@@ -49,7 +49,10 @@ echo '<pre>';
 echo var_dump($names);
 echo '</pre>';
 // Split the string into an array
-
+$versityFriends = "miraz,sajib,arafat";
+echo '<pre>';
+echo var_dump(explode(",",$versityFriends));
+echo '</pre>';
 // Combine array elements into string
 
 // Check if element exist in the array
