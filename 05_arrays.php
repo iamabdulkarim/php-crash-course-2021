@@ -1,8 +1,11 @@
 <?php
 
 // Create array
-
+$name = ["karim","noman","Bakkar"];
 // Print the whole array
+echo '<pre>';
+var_dump($name);
+echo '<pre>';
 
 // Get element by index
 
