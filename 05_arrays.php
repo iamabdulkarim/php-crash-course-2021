@@ -117,7 +117,9 @@ echo '</pre>';
 // Check if array has specific key
 
 // Print the keys of the array
-
+echo '<pre>';
+var_dump(array_keys($person));
+echo '</pre>';
 // Print the values of the array
 
 // Sorting associative arrays by values, by keys
