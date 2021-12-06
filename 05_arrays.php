@@ -26,7 +26,7 @@ echo '<pre>';
 echo var_dump($names);
 echo '</pre>';
 // Print the length of the array
-
+// echo count($names).'<br>';
 // Add element at the end of the array
 
 // Remove element from the end of the array
