@@ -94,7 +94,7 @@
 // Create an associative array
 $person = [
     'name' => 'Abdul karim',
-    'surname' => 'bulbul',
+    'surname' => 'Bulbul',
     'age' => 27,
     'hobbies' => ['coding','video Gamming','cricket']
 ];
@@ -125,9 +125,21 @@ echo '<pre>';
 var_dump(array_values($person));
 echo '</pre>';
 // Sorting associative arrays by values, by keys
-ksort($person);
+// ksort($person);//sorting with keys
+// echo '<pre>';
+// var_dump($person);
+// echo '</pre>';
+asort($person);//sorting with values
 echo '<pre>';
 var_dump($person);
 echo '</pre>';
 
 // Two dimensional arrays
+
+$todos = [
+    ['title'=> 'Todo title 1', 'completed'=>true],
+    ['title'=> 'Todo title 2', 'completed'=>false],
+];
+echo '<pre>';
+var_dump($todos);
+echo '</pre>';
