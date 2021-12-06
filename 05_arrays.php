@@ -39,9 +39,15 @@ echo '<pre>';
 echo var_dump($names);
 echo '</pre>';
 // Add element at the beginning of the array
-
+array_unshift($names , 'Rifat');
+echo '<pre>';
+echo var_dump($names);
+echo '</pre>';
 // Remove element from the beginning of the array
-
+echo array_shift($names);
+echo '<pre>';
+echo var_dump($names);
+echo '</pre>';
 // Split the string into an array
 
 // Combine array elements into string
